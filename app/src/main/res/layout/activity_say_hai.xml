@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.ibadguthwara.tugas.pretest_akb2_10116049.SayHai">
+
+    <TextView
+        android:id="@+id/beres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/str_beres"
+        android:textColor="@color/black3"
+        android:textSize="28sp"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"/>
+
+    <Button
+        android:id="@+id/btnoke"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/custom_button_kuning"
+        android:fontFamily="@font/rubik_regular"
+        android:text="@string/str_oke"
+        android:textColor="@color/black3"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="24dp"/>
+
+</RelativeLayout>
